@@ -40,21 +40,22 @@ header {
 }
 
 .side {
-    border: 1px solid #6A5ACD;
+    border: 1px solid black;
     border-radius: 11px;
     -moz-border-radius: 11px;
     -webkit-border-radius: 11px;
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
     -o-transition: all 0.7s ease-in-out;
-    background-color: #AFEEEE;
-    /* light blue background for side */
+    background-color: grey;
     
     float: right;
     line-height: 1.4em;
-    margin: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 10px;
     padding: 12px;
-    width: 22%;
+    width: 30%;
 }
 /* Brighten side box on hover */
 .side {
