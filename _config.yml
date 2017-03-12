@@ -1,0 +1,19 @@
+# Jekyll Resume Theme
+
+# Site settings
+title: Lewis Zhang
+email: lfzv2.0@gmail.com
+description: A website about who I am and what I have done!
+baseurl: ""
+url: "https://lewisfzhang.github.io/"
+name: Lewis Zhang
+job: student
+location: San Jose, CA
+interests: mathematics, computer science, and robotics
+linkedin_username: lewisfzhang
+github_username:  lewisfzhang
+instagram_username: dat.ez.money
+email_address: lfzv2.0@gmail.com
+
+# Build settings
+markdown: kramdown
