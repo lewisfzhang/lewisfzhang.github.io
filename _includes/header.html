@@ -6,11 +6,11 @@
             <p class="intro__post">{{ site.location }}</p>
         </div>
 
-        <p>blablablabla</p>
         <div class="side">
             <p>hi</p>
             {% for list in site.data.lists %}
             <h3 class="item">{{ list.item }}</h3>
+            {% endfor %}
         </div>
         
         {{ if site.github_username or site.codepen_username or site.twitter_username or site.email_address }}
