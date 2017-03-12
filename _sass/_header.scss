@@ -1,0 +1,67 @@
+// @name Header
+// @description All header styles
+
+header {
+    border-bottom: 1px solid #edefee;
+    padding: ($spacer * 2) 0;
+    margin-bottom: ($spacer * 2);
+
+    @media(min-width: 640px) {
+        padding: ($spacer * 10) 0 ($spacer * 3);
+        margin-bottom: ($spacer * 3);
+    }
+}
+
+.intro {
+    margin-bottom: ($spacer * 2);
+
+    &__pre, &__post {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    &__main {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        font-weight: bold;
+        margin: 10px 0 20px;
+
+        @media(min-width: 640px) {
+            font-size: 2.2rem;
+            max-width: 60%;
+        }
+    }
+}
+
+.social {
+    a {
+        margin-right: $spacer;
+    }
+}
+
+.side {
+    border: 1px solid #6A5ACD;
+    border-radius: 11px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    background-color: #AFEEEE;
+    /* light blue background for side */
+    
+    float: right;
+    line-height: 1.4em;
+    margin: 3px;
+    padding: 12px;
+    width: 22%;
+}
+/* Brighten side box on hover */
+.side {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+.side:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
