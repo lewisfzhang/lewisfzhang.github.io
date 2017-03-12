@@ -1,0 +1,25 @@
+<h3 class="section-title">Education</h3>
+<dl class="education">
+    {% for qualification in site.data.education %}
+        <dt>
+            <p class="title">{{ qualification.school }}</p>
+            <p class="period">{{ qualification.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ qualification.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
+<h3 class="section-title">Achievements and Awards</h3>
+<dl class="experience">
+    {% for award in site.data.awards %}
+        <dt>
+            <p class="title">{{ award.title }}</p>
+            <p class="period">{{ award.period }}</p>
+        </dt><!--
+        --><dd>
+            <p>{{ award.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
